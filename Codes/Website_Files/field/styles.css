@@ -1,0 +1,57 @@
+
+
+.sideBySideContainer {
+ 
+    position: absolute;
+    top: 55vh; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    gap: 33vw;
+    z-index: 1;
+ 
+  }
+
+  .imageUploader {
+    flex: 1;
+  }
+  
+  .diseaseDescription {
+    flex: 1;
+  
+  }
+
+
+  .toast-bottom-center {
+
+    left: 9.5vw;
+    top:7vh;
+
+    transform: translateX(-50%);
+
+  }
+
+  .nav-active1 {
+    color: #1955af; 
+    font-weight: 300;
+
+  }
+  
+  .nav-active1:hover,
+  .nav-active1:active {
+    color: white; 
+    font-weight: 400; 
+  }
+
+  .uploadButton{
+    background:rgb(60, 221, 60);
+   color: rgb(239, 239, 239);
+   position: relative;
+    top: 1vh;
+    left: 3vh;
+    transition: all 0.5s ease-in-out;
+  }
+  .uploadButton:hover {
+    background: rgb(25, 125, 25);
+}
